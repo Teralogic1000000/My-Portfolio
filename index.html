@@ -20,7 +20,7 @@
 
   <!-- Hero -->
   <section class="hero">
-    <img src="">
+    <img src="/my image/WhatsApp Image 2025-09-10 at 19.40.12_df5ffc59.jpg">
     <h1>Hello, I'm Abraham S. Fallah jr👋</h1>
     <p>A tech student passionate about web development, problem-solving, and creating smooth user experiences.</p>
     <button class="btn">View My Work</button>
@@ -30,23 +30,6 @@
     <p>© 2025 MyPortfolio | Built with ❤️</p>
   </footer>
 
-  <!-- Scroll Animation Script -->
-  <script>
-    const sections = document.querySelectorAll("section");
-    const options = { threshold: 0.2 };
-    const observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach(entry => {
-        if(entry.isIntersecting){
-          entry.target.classList.add("visible");
-          observer.unobserve(entry.target);
-        }
-      });
-    }, options);
-
-    sections.forEach(section => {
-      observer.observe(section);
-    });
-  </script>
-
+  
 </body>
 </html>
